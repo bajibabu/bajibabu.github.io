@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en-UK"
+locale                   : "en-GB"
 title                    : "Bajibabu Bollepalli"
 title_separator          : "-"
 name                     : &name "Bajibabu Bollepalli"
@@ -75,12 +75,12 @@ social:
 analytics:
   provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          :  UA-128205640-1
 
 
 # Site Author
 author:
-  name             : "Bajibabu Bollepalli"
+  name             : "Baji (బాజీ)"
   avatar           : "profile.png"
   bio              : "Applied Scientist at Amazon, with a Ph.D degree in Speech and Language Technology"
   location         : "Cambridge, UK"
@@ -174,13 +174,10 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  research:
     output: true
     permalink: /:collection/:path/
   talks:
@@ -254,7 +251,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/London # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
